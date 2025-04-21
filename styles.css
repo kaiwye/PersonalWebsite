@@ -37,6 +37,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.mobileMenu {
+  display: none;
+}
+
 /* Footer */
 
 footer {
@@ -49,4 +53,26 @@ footer {
   background: #acd3a8;
   width: 40px;
   height: 40px;
+}
+
+/* Mobile */
+
+@media (max-width: 760px) {
+  nav {
+    display: none;
+  }
+
+  .mobileMenu {
+    display: contents;
+  }
+
+  .menuButton {
+    background: #acd3a8;
+    margin: 0.8rem;
+    padding: 0.4rem;
+  }
+
+  .menuButton:hover {
+    background-color: #f6f1de;
+  }
 }
