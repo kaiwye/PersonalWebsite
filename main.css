@@ -1,0 +1,50 @@
+main {
+  margin: 1rem;
+  padding: 0.5rem;
+  color: #3e3f5b;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h2 {
+  margin: 0 1rem;
+  padding: 0 1rem;
+  font-size: 2rem;
+  grid-area: 1/1/2/2;
+}
+
+.profilePic {
+  margin: 0 1rem;
+  padding: 0 1rem;
+  width: 50vw;
+  grid-area: 1/2/7/4;
+}
+
+.interests {
+  margin: 0 1rem;
+  padding: 0 1rem;
+  font-size: 1.25rem;
+  grid-area: 3/1/4/2;
+}
+
+.quote {
+  margin: 0 1rem;
+  padding: 0 1rem;
+  font-style: italic;
+  font-size: 1.25rem;
+  grid-area: 5/1/6/2;
+}
+
+.tab1,
+.tab2,
+.tab3 {
+  float: right;
+}
+
+.tab2 {
+  font-size: 1.1rem;
+}
+
+.tab1 {
+  font-size: 1rem;
+}
