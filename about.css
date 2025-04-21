@@ -1,0 +1,41 @@
+main {
+  margin: 1rem;
+  padding: 0.5rem;
+  display: block;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 0;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.hobbiesImage {
+  width: 40vw;
+  grid-column: 2/3;
+  grid-row: 1/6;
+  margin: 0 2rem;
+}
+
+p {
+  font-family: "Cambria";
+  margin: 1rem 0;
+}
+
+@media (max-width: 760px) {
+  main {
+    text-align: center;
+  }
+
+  .hobbies {
+    display: block;
+  }
+}

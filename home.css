@@ -1,7 +1,6 @@
 main {
   margin: 1rem;
   padding: 0.5rem;
-  color: #3e3f5b;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -52,8 +51,6 @@ h2 {
 @media (max-width: 760px) {
   main {
     display: block;
-    margin-left: 0;
-    padding-left: 0;
-    width: 100%;
+    text-align: center;
   }
 }
