@@ -1,3 +1,3 @@
 Hello!
 
-This is my personal website where you can learn more about!
+This is my personal website where you can learn more about me!
